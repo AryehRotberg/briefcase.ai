@@ -1,0 +1,15 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+POSTGRES_URL = os.getenv("POSTGRES_URL")
+
+MONGODB_URL = os.getenv("MONGODB_URL")
+MONGODB_DATABASE = os.getenv("MONGODB_DATABASE")
+MONGODB_COLLECTION = os.getenv("MONGODB_COLLECTION")
+
+CHROMA_API_KEY = os.getenv("CHROMA_API_KEY")
+CHROMA_TENANT = os.getenv("CHROMA_TENANT")
+CHROMA_DATABASE = os.getenv("CHROMA_DATABASE")
+CHROMA_COLLECTION = os.getenv("CHROMA_COLLECTION")

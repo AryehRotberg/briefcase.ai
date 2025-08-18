@@ -1,0 +1,7 @@
+
+EPOCHS: int = 1
+TRAIN_BATCH_SIZE: int = 16
+EVAL_BATCH_SIZE: int = 16
+LEARNING_RATE: float = 2e-05
+WARMUP_RATIO: float = 0.1
+EVAL_STEPS: int = 100
