@@ -16,7 +16,7 @@ class ChromaBulletExtractor:
         """
         self.similarity_threshold = similarity_threshold
         self.chroma_collection = chroma_collection
-        self.batch_size = 99
+        self.batch_size = 100
         self.top_k_categories = 1
         self.section_patterns = [
             r'\n\s*#+\s+.*?\n',  # Markdown headers
