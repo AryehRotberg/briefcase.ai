@@ -1,6 +1,6 @@
 # briefcase.ai
 
-![System Architecture](assets/briefcase.ai%20System%20Architecture.png)
+![System Architecture](assets/System%20Architecture.png)
 
 briefcase.ai is an AI-powered system for extracting, categorizing, and evaluating privacy-related statements from online service documents (such as privacy policies, terms of service, and related legal documents). The project leverages state-of-the-art NLP models to automate the analysis of privacy documents, providing structured bullet points and criticality-based categorization for downstream applications.
 
